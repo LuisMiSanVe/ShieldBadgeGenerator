@@ -13,7 +13,7 @@ def choose_logocolor():
 
 # AutocompleteEntry
 def fetch_icon_names():
-    url = "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/_data/simple-icons.json"
+    url = "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/data/simple-icons.json"
     response = requests.get(url)
     if response.status_code == 200:
         return [item['title'] for item in response.json()]

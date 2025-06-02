@@ -9,7 +9,7 @@ Script de Python con Tkinter para construir facilmente insignias de **Shields.io
 
 ## 📝 Explicación de Tecnología
 Este script utiliza dos APIs:
-- **[Simple Icons](https://raw.githubusercontent.com/simple-icons/simple-icons/develop/_data/simple-icons.json)**: Los iconos registrados en el JSON son cargados en un array y los muestra en el *Entry* como pistas mientras escribes.
+- **[JSON de Simple Icons](https://raw.githubusercontent.com/simple-icons/simple-icons/develop/data/simple-icons.json)**: Los iconos registrados en el JSON son cargados en un array y los muestra en el *Entry* como pistas mientras escribes.
 - **[Shields.io](https://shields.io/)**: El script coge los datos introducidos y construye la URL de Shields.io que monta la insignia.
 
 ## 📋 Prerequisitos
@@ -23,6 +23,6 @@ Necesitarás tener instalado [Python](https://www.python.org/) y/o la [Extensió
   - [webbrowser](https://docs.python.org/3/library/webbrowser.html)
 - Otros:
   - [Shields.io](https://shields.io/)
-  - [Simple Icons](https://raw.githubusercontent.com/simple-icons/simple-icons/develop/_data/simple-icons.json)
+  - [Simple Icons](https://raw.githubusercontent.com/simple-icons/simple-icons/develop/data/simple-icons.json)
   - [VSC Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - IDE Recomendado: [VS Code](https://code.visualstudio.com/)

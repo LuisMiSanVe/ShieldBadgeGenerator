@@ -9,7 +9,7 @@ Tkinter Python Script to construct easily **Shields.io** Badges.
 
 ## 📝 Technology Explanation
 This Script uses two APis:
-- **[Simple Icons](https://raw.githubusercontent.com/simple-icons/simple-icons/develop/_data/simple-icons.json)**: The icons registered on the JSON are loaded in an array and shows in the *Entry* as hints while you type.
+- **[Simple Icons JSON](https://raw.githubusercontent.com/simple-icons/simple-icons/develop/data/simple-icons.json)**: The icons registered on the JSON are loaded in an array and shows in the *Entry* as hints while you type.
 - **[Shields.io](https://shields.io/)**: The script takes the data you input and contruct the URL of Shields.io that builds the badge.
 
 ## 📋 Prerequisites
@@ -23,6 +23,6 @@ You'll need to have [Python](https://www.python.org/) and/or the [VS Code Extens
   - [webbrowser](https://docs.python.org/3/library/webbrowser.html)
 - Other:
   - [Shields.io](https://shields.io/)
-  - [Simple Icons](https://raw.githubusercontent.com/simple-icons/simple-icons/develop/_data/simple-icons.json)
+  - [Simple Icons](https://raw.githubusercontent.com/simple-icons/simple-icons/develop/data/simple-icons.json)
   - [VSC Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - Recommended IDE: [VS Code](https://code.visualstudio.com/)
